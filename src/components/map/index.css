@@ -1,0 +1,8 @@
+.map {
+  width: 100%;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: repeat(30, auto);
+  gap: 0;
+  border: 1px solid #000;
+}

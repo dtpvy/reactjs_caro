@@ -1,0 +1,23 @@
+.square {
+  padding: 20px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.square__icon {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square__icon--x {
+  color: rgb(98, 132, 220);
+}
+
+.square__icon--o {
+  color: rgb(226, 120, 120);
+}

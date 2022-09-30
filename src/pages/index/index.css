@@ -1,0 +1,64 @@
+.home {
+  height: 100%;
+  width: 100%;
+}
+
+.home__game {
+  padding: 30px;
+}
+
+.input {
+  padding: 10px;
+  outline: none;
+}
+
+.home__header {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.home__header__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home__title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 200px;
+  background-color: #333;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home__header__clock {
+  padding: 30px;
+  min-width: 200px;
+  border: 3px double #333;
+  border-radius: 15px;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.home__description {
+  text-align: center;
+  font-size: 16px;
+}
