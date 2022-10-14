@@ -71,7 +71,7 @@ function Home() {
 
   return (
     <div>
-      <div className="home__title">TRÒ CHƠI ĐÁNH CARO test</div>
+      <div className="home__title">TRÒ CHƠI ĐÁNH CARO</div>
       {isStart && (
         <div className="home__description">
           Đã đánh được {step} dấu. Đến lượt của người chơi{" "}
