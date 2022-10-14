@@ -1,0 +1,13 @@
+name: action-pr
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  branches:
+    - "main"
+  workflow_dispatch:
+jobs:
+  action-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn install & vercel
