@@ -60,7 +60,7 @@ function Home() {
 
   useEffect(() => {
     const mm = Math.floor(timer / 60);
-    if (mm === 20) {
+    if (mm === 1) {
       alert("Trò chơi kết thúc! Hoà!");
       handleEnd();
       return;
@@ -71,7 +71,7 @@ function Home() {
 
   return (
     <div>
-      <div className="home__title">TRÒ CHƠI ĐÁNH CARO</div>
+      <div className="home__title">TRÒ CHƠI ĐÁNH CARO test</div>
       {isStart && (
         <div className="home__description">
           Đã đánh được {step} dấu. Đến lượt của người chơi{" "}
